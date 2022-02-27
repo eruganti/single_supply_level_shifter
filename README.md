@@ -2,7 +2,6 @@
 The purpose of this Hackathon is to implement the proposed design in 28 nm PDK (Process Design Kit) suing CMOS technology.
 
  As a result of literature survey and Implemantation, this is a final Report Submission for successful completion of Latch-based-Integrated-Clock-Gating-Cell design and simulation, for [Cloud Based Analog IC Design Hackathon](https://www.iith.ac.in/events/2022/02/15/Cloud-Based-Analog-IC-Design-Hackathon/)
-
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Working](#working)
@@ -11,7 +10,7 @@ The purpose of this Hackathon is to implement the proposed design in 28 nm PDK (
 5. [Schematic Netlist](#schematic-netlist)
 6. [Simulation result](#simulation-result)
 7. [Challenge](#challenge)
-8. [Limitations](#limitations)
+8. [Applications of level shifters](#Applications of level shifters)
 9. [References](#references)
 10. [Acknowledgements](#acknowledgements)
 11. [Author](#author)
@@ -120,6 +119,9 @@ One other thing we need to keep in mind is that here we have loop for which an i
 	<img width="1100" src="Image/waveform.png" alt="refference Level_shifter Trans"> 
 	<h5 align="center">Figure 9: Waveform</h5>
 </p>.
+
+## Applications of level shifters
+-Since level shifters are used to resolve the voltage incompatibility between various parts of a system, they have a wide range of applications as well. Level shifters are widely used in interfacing legacy devices and also in SD cards, SIM cards, CF cards, audio codecs and UARTs.
 
 ## Challenge
 - The real challange is to adjust W/L ratio of pMos and nMos such that both have approximately equal rise and fall time.
