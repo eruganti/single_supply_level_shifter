@@ -10,7 +10,7 @@ The purpose of this Hackathon is to implement the proposed design in 28 nm PDK (
 5. [Schematic Netlist](#schematic-netlist)
 6. [Simulation result](#simulation-result)
 7. [Challenge](#challenge)
-8. [Applications of level shifters](#Applications of level shifters)
+8. [Applications of level shifters](#applications-of-level-shifters)
 9. [References](#references)
 10. [Acknowledgements](#acknowledgements)
 11. [Author](#author)
@@ -120,7 +120,7 @@ One other thing we need to keep in mind is that here we have loop for which an i
 	<h5 align="center">Figure 9: Waveform</h5>
 </p>.
 
-## Applications of level shifters
+## Applications of level shifters:
 -Since level shifters are used to resolve the voltage incompatibility between various parts of a system, they have a wide range of applications as well. Level shifters are widely used in interfacing legacy devices and also in SD cards, SIM cards, CF cards, audio codecs and UARTs.
 
 ## Challenge
